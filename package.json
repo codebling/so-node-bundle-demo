@@ -1,0 +1,22 @@
+{
+  "name": "parcel-node-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "targets": {
+    "main": {
+      "includeNodeModules": true
+    }
+  }    
+}
